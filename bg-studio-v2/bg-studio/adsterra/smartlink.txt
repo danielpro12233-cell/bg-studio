@@ -1,0 +1,5 @@
+# SMARTLINK
+# 1) Adsterra > Websites > Smartlink_1 > GET CODE
+# 2) Copy the direct link (it starts with https://) and paste it BELOW this line.
+# 3) Lines that begin with # are ignored.
+

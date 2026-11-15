@@ -1,0 +1,9 @@
+# Automatic HTTPS (Let's Encrypt) reverse proxy in front of the Node server.
+# Replace example.com with your domain, then run:  caddy run --config Caddyfile
+#
+# Start the app with:  TRUST_PROXY=1 BEHIND_HTTPS=1 HOST=127.0.0.1 PORT=3000 node server.js
+
+example.com {
+	encode zstd gzip
+	reverse_proxy 127.0.0.1:3000
+}
