@@ -1,0 +1,20 @@
+# Render Blueprint: deploys BG Studio as a public web service.
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: bg-studio
+    runtime: node
+    plan: free              # change to "starter" so the site never sleeps (better for visitors and SEO)
+    buildCommand: "npm run build:pages"
+    autoDeploy: true
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0      # accept connections from the internet, not just this machine
+      - key: TRUST_PROXY
+        value: "1"
+      - key: BEHIND_HTTPS
+        value: "1"
+      - key: SITE_URL
+        sync: false         # Render will ask you for it: your real address, e.g. https://bg-studio.onrender.com
