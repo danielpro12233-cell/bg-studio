@@ -1,0 +1,16 @@
+{
+  "name": "bg-studio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Privacy-first in-browser background remover (AI + solid color) and image converter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "build:pages": "node scripts/build-pages.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
