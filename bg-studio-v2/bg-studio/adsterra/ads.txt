@@ -1,2 +1,0 @@
-# OPTIONAL ads.txt. Adsterra dashboard > Websites > ads.txt shows a line like:  adsterra.com, 1234567, DIRECT, abcdef123456
-# Paste that line BELOW this line (no # in front).

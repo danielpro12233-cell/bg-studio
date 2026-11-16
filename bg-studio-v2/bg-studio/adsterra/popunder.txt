@@ -1,3 +1,0 @@
-# POPUNDER (use with care: it opens a new tab on a click and can annoy visitors)
-# Adsterra > Websites > Popunder_1 > GET CODE. Paste the whole script code BELOW this line.
-
