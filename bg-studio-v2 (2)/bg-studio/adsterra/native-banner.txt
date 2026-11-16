@@ -1,5 +1,0 @@
-# NATIVE BANNER
-# Adsterra > Websites > NativeBanner_1 > GET CODE. Paste the whole code (the script AND the div) BELOW this line.
-
-<script async="async" data-cfasync="false" src="https://bauval.org/21/d006b60e70b1d9af5189309da604a1a4"></script>
-<div id="container-d006b60e70b1d9af5189309da604a1a4"></div>

@@ -1,4 +1,0 @@
-# SOCIAL BAR
-# Adsterra > Websites > SocialBar_1 > GET CODE. Paste the whole script code BELOW this line.
-
-<script data-cfasync="false" src="https://bauval.org/14/0bc977dc0c817cd2f802996b97c6a9c6"></script>
